@@ -334,7 +334,6 @@ namespace IIS.OtdelLogistiki
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (ЖурналУчета.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (ЖурналУчета.Отправить method implementation)
         }

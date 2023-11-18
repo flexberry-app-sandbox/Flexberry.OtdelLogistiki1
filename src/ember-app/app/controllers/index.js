@@ -22,18 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-otdel-logistiki-т-ч-водитель-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-т-ч-водитель-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-т-ч-водитель-l.title'),
-            icon: 'calendar',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-тч-движ-г-с-м-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-тч-движ-г-с-м-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-тч-движ-г-с-м-l.title'),
-            icon: 'folder open',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-договор-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-договор-l.title'),
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-путевой-лист-l',
@@ -45,7 +46,7 @@ export default Controller.extend({
             link: 'i-i-s-otdel-logistiki-журнал-учета-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-журнал-учета-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-журнал-учета-l.title'),
-            icon: 'briefcase',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-контрагент-l',
@@ -56,37 +57,37 @@ export default Controller.extend({
             link: 'i-i-s-otdel-logistiki-рук-отд-лог-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-рук-отд-лог-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-рук-отд-лог-l.title'),
-            icon: 'suitcase',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-персонал-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-персонал-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-персонал-l.title'),
-            icon: 'folder',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-тч-раб-вод-авто-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-тч-раб-вод-авто-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-тч-раб-вод-авто-l.title'),
-            icon: 'archive',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-трансп-ср-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-трансп-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-трансп-ср-l.title'),
-            icon: 'file',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-должности-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-должности-l.title'),
-            icon: 'list',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-т-ч-задан-вод-l',
             caption: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-т-ч-задан-вод-l.caption'),
             title: i18n.t('forms.application.sitemap.otdel-logistiki.i-i-s-otdel-logistiki-т-ч-задан-вод-l.title'),
-            icon: 'file',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-otdel-logistiki-организация-l',

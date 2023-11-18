@@ -228,7 +228,6 @@ namespace IIS.OtdelLogistiki
         public virtual void Распечатать()
         {
             // *** Start programmer edit section *** (ПутевойЛист.Распечатать method implementation)
-
             return;
             // *** End programmer edit section *** (ПутевойЛист.Распечатать method implementation)
         }
