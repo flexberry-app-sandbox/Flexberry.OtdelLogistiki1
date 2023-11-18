@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-контрагент-e",
+  "editForm": "i-i-s-otdel-logistiki-контрагент-e",
+  "external": false,
+  "caption": "Контрагент",
+  "name": "IISOtdelLogistikiКонтрагентL",
+  "className": "КонтрагентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-контрагент",
+      "modelProjection": "КонтрагентL"
+    }
+  ]
+}

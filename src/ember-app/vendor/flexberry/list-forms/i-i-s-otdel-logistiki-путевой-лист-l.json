@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-путевой-лист-e",
+  "editForm": "i-i-s-otdel-logistiki-путевой-лист-e",
+  "external": false,
+  "caption": "Путевой лист",
+  "name": "IISOtdelLogistikiПутевойЛистL",
+  "className": "ПутевойЛистL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-путевой-лист",
+      "modelProjection": "ПутевойЛистL"
+    }
+  ]
+}

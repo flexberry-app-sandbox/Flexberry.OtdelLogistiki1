@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Тч раб вод авто",
+  "name": "IISOtdelLogistikiТчРабВодАвтоE",
+  "className": "ТчРабВодАвтоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-тч-раб-вод-авто",
+      "modelProjection": "ТчРабВодАвтоE"
+    }
+  ]
+}

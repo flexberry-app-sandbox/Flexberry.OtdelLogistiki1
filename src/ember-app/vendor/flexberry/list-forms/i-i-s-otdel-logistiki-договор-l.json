@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-договор-e",
+  "editForm": "i-i-s-otdel-logistiki-договор-e",
+  "external": false,
+  "caption": "Договор",
+  "name": "IISOtdelLogistikiДоговорL",
+  "className": "ДоговорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-договор",
+      "modelProjection": "ДоговорL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-трансп-ср-e",
+  "editForm": "i-i-s-otdel-logistiki-трансп-ср-e",
+  "external": false,
+  "caption": "Трансп ср",
+  "name": "IISOtdelLogistikiТранспСрL",
+  "className": "ТранспСрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-трансп-ср",
+      "modelProjection": "ТранспСрL"
+    }
+  ]
+}

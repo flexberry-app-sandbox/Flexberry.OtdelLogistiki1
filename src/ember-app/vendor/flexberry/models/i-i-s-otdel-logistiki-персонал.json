@@ -1,0 +1,176 @@
+﻿{
+  "name": "IISOtdelLogistikiПерсонал",
+  "modelName": "i-i-s-otdel-logistiki-персонал",
+  "className": "Персонал",
+  "nameSpace": "IIS.OtdelLogistiki",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "контакты",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рукОтдЛог",
+      "relatedTo": "i-i-s-otdel-logistiki-рук-отд-лог",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "тЧВодитель",
+      "relatedTo": "i-i-s-otdel-logistiki-т-ч-водитель",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПерсоналE",
+      "modelName": "i-i-s-otdel-logistiki-персонал",
+      "attrs": [
+        {
+          "name": "контакты",
+          "caption": "Контакты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "РукОтдЛог",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Рук отд лог",
+          "name": "рукОтдЛог",
+          "relatedTo": "i-i-s-otdel-logistiki-рук-отд-лог",
+          "inverse": null
+        },
+        {
+          "lookupValue": "ТабелНомер",
+          "lookupValueField": "табелНомер",
+          "relationName": "ТЧВодитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "табелНомер",
+              "caption": "Табел номер",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Т ч водитель",
+          "name": "тЧВодитель",
+          "relatedTo": "i-i-s-otdel-logistiki-т-ч-водитель",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ПерсоналL",
+      "modelName": "i-i-s-otdel-logistiki-персонал",
+      "attrs": [
+        {
+          "name": "контакты",
+          "caption": "Контакты",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "РукОтдЛог",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "рукОтдЛог",
+          "relatedTo": "i-i-s-otdel-logistiki-рук-отд-лог",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ТЧВодитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "табелНомер",
+              "caption": "Табел номер",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Табел номер",
+          "name": "тЧВодитель",
+          "relatedTo": "i-i-s-otdel-logistiki-т-ч-водитель",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

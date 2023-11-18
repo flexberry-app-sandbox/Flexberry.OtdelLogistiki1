@@ -1,0 +1,106 @@
+﻿{
+  "applicationCaption": "Otdel logistiki",
+  "applicationTitle": "Otdel logistiki",
+  "items": [
+    {
+      "link": null,
+      "menuName": "otdel-logistiki",
+      "caption": "OtdelLogistiki",
+      "title": "OtdelLogistiki",
+      "children": [
+        {
+          "link": "i-i-s-otdel-logistiki-т-ч-водитель-l",
+          "menuName": null,
+          "caption": "Т ч водитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-тч-движ-г-с-м-l",
+          "menuName": null,
+          "caption": "Тч движ ГСМ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-путевой-лист-l",
+          "menuName": null,
+          "caption": "Путевой лист",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-журнал-учета-l",
+          "menuName": null,
+          "caption": "Журнал учета",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-контрагент-l",
+          "menuName": null,
+          "caption": "Контрагент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-рук-отд-лог-l",
+          "menuName": null,
+          "caption": "Рук отд лог",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-персонал-l",
+          "menuName": null,
+          "caption": "Персонал",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-тч-раб-вод-авто-l",
+          "menuName": null,
+          "caption": "Тч раб вод авто",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-трансп-ср-l",
+          "menuName": null,
+          "caption": "Трансп ср",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-т-ч-задан-вод-l",
+          "menuName": null,
+          "caption": "Т ч задан вод",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otdel-logistiki-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

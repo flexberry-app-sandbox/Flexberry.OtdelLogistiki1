@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-тч-движ-г-с-м-e",
+  "editForm": "i-i-s-otdel-logistiki-тч-движ-г-с-м-e",
+  "external": false,
+  "caption": "Тч движ ГСМ",
+  "name": "IISOtdelLogistikiТчДвижГСМL",
+  "className": "ТчДвижГСМL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-тч-движ-г-с-м",
+      "modelProjection": "ТчДвижГСМL"
+    }
+  ]
+}

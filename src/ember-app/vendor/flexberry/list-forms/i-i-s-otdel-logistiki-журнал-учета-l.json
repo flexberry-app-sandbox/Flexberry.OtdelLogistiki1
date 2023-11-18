@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-журнал-учета-e",
+  "editForm": "i-i-s-otdel-logistiki-журнал-учета-e",
+  "external": false,
+  "caption": "Журнал учета",
+  "name": "IISOtdelLogistikiЖурналУчетаL",
+  "className": "ЖурналУчетаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-журнал-учета",
+      "modelProjection": "ЖурналУчетаL"
+    }
+  ]
+}

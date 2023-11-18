@@ -1,0 +1,218 @@
+﻿{
+  "name": "IISOtdelLogistikiДоговор",
+  "modelName": "i-i-s-otdel-logistiki-договор",
+  "className": "Договор",
+  "nameSpace": "IIS.OtdelLogistiki",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаЗаключ",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаОконч",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "обязанПосред",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "организация",
+      "relatedTo": "i-i-s-otdel-logistiki-организация",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рукОтдЛог",
+      "relatedTo": "i-i-s-otdel-logistiki-рук-отд-лог",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДоговорE",
+      "modelName": "i-i-s-otdel-logistiki-договор",
+      "attrs": [
+        {
+          "name": "датаЗаключ",
+          "caption": "Дата заключ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаОконч",
+          "caption": "Дата оконч",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "обязанПосред",
+          "caption": "Обязан посред",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Почта",
+          "lookupValueField": "почта",
+          "relationName": "Организация",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "почта",
+              "caption": "Почта",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Организация",
+          "name": "организация",
+          "relatedTo": "i-i-s-otdel-logistiki-организация",
+          "inverse": null
+        },
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "РукОтдЛог",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Рук отд лог",
+          "name": "рукОтдЛог",
+          "relatedTo": "i-i-s-otdel-logistiki-рук-отд-лог",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ДоговорL",
+      "modelName": "i-i-s-otdel-logistiki-договор",
+      "attrs": [
+        {
+          "name": "датаЗаключ",
+          "caption": "Дата заключ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаОконч",
+          "caption": "Дата оконч",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "обязанПосред",
+          "caption": "Обязан посред",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Организация",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "почта",
+              "caption": "Почта",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Почта",
+          "name": "организация",
+          "relatedTo": "i-i-s-otdel-logistiki-организация",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "РукОтдЛог",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "рукОтдЛог",
+          "relatedTo": "i-i-s-otdel-logistiki-рук-отд-лог",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

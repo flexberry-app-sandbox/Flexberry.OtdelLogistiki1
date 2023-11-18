@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otdel-logistiki-персонал-e",
+  "editForm": "i-i-s-otdel-logistiki-персонал-e",
+  "external": false,
+  "caption": "Персонал",
+  "name": "IISOtdelLogistikiПерсоналL",
+  "className": "ПерсоналL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otdel-logistiki-персонал",
+      "modelProjection": "ПерсоналL"
+    }
+  ]
+}
